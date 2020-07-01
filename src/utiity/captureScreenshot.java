@@ -15,6 +15,7 @@ public void capturess(String screenshotname,WebDriver driver) {
 	String path="C:\\Users\\Nandhini.devi\\Desktop\\screenshot\\"+screenshotname+".png";
 	File destination=new File(path);
 	try {
+		System.out.println("hello");
 		FileUtils.copyFile(source, destination);
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
