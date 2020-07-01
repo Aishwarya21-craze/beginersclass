@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<suite name="my first suite">
+<test name="my first test">
+<groups>
+<run>
+<include name="Smoke"/>
+</run>
+</groups>
+<classes>
+<class name="testngClass2Ex"/>
+<class name="Login"/>
+</classes>
+
+</test>
+</suite>
